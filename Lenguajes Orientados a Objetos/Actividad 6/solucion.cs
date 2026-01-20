@@ -24,10 +24,10 @@ class InputOutput
         for (int i = 0; i < 5; i++)
         {
 
-            Console.WriteLine("Introduce la edad de la persona " + i);
+            Console.WriteLine("Introduce la edad de la persona " + (i+1));
             edad = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Introduce el peso de la persona " + i);
+            Console.WriteLine("Introduce el peso de la persona " + (i+1));
             peso = int.Parse(Console.ReadLine());
 
             if (edad <= 12)
@@ -52,15 +52,13 @@ class InputOutput
                 ma++;
             }
 
-
-            
-
-
-
-            
-
-        
         }
+
+        Console.WriteLine("Total de niños: " + ni + ", Peso promedio: " + (pni/ni));
+        Console.WriteLine("Total de jovenes: " + jo + ", Peso promedio: " + (pjo/jo));
+        Console.WriteLine("Total de adultos: " + ad + ", Peso promedio: " + (pad/ad));
+        Console.WriteLine("Total de adultos mayores: " + ma + ", Peso promedio: " + (pma/ma));
+
 
     }
 }
