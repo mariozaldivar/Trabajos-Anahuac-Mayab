@@ -2,10 +2,10 @@ using System;
 
 class Factura
 {
-    public string Numero_pieza {get; set;}
-    public string Descripcion_pieza {get; set;}
-    public int Cantidad {get; set;}
-    public double Precio {get; set;}
+    public string Numero_pieza;
+    public string Descripcion_pieza;
+    public int Cantidad;
+    public double Precio;
 
 
     public Factura(string numero_pieza, string descripcion_pieza, int cantidad, double precio)
