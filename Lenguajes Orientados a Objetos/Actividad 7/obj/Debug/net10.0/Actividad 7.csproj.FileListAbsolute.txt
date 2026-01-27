@@ -1,0 +1,15 @@
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\bin\Debug\net10.0\Actividad 7.exe
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\bin\Debug\net10.0\Actividad 7.deps.json
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\bin\Debug\net10.0\Actividad 7.runtimeconfig.json
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\bin\Debug\net10.0\Actividad 7.dll
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\bin\Debug\net10.0\Actividad 7.pdb
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\obj\Debug\net10.0\Actividad 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\obj\Debug\net10.0\Actividad 7.AssemblyInfoInputs.cache
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\obj\Debug\net10.0\Actividad 7.AssemblyInfo.cs
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\obj\Debug\net10.0\Actividad 7.csproj.CoreCompileInputs.cache
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\obj\Debug\net10.0\Actividad 7.sourcelink.json
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\obj\Debug\net10.0\Actividad 7.dll
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\obj\Debug\net10.0\refint\Actividad 7.dll
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\obj\Debug\net10.0\Actividad 7.pdb
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\obj\Debug\net10.0\Actividad 7.genruntimeconfig.cache
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 7\obj\Debug\net10.0\ref\Actividad 7.dll
