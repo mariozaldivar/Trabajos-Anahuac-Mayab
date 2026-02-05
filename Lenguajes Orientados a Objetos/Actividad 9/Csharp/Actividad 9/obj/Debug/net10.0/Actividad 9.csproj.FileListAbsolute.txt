@@ -1,0 +1,15 @@
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\obj\Debug\net10.0\Actividad 9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\obj\Debug\net10.0\Actividad 9.AssemblyInfoInputs.cache
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\obj\Debug\net10.0\Actividad 9.AssemblyInfo.cs
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\obj\Debug\net10.0\Actividad 9.csproj.CoreCompileInputs.cache
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\obj\Debug\net10.0\Actividad 9.sourcelink.json
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\bin\Debug\net10.0\Actividad 9.exe
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\bin\Debug\net10.0\Actividad 9.deps.json
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\bin\Debug\net10.0\Actividad 9.runtimeconfig.json
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\bin\Debug\net10.0\Actividad 9.dll
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\bin\Debug\net10.0\Actividad 9.pdb
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\obj\Debug\net10.0\Actividad 9.dll
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\obj\Debug\net10.0\refint\Actividad 9.dll
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\obj\Debug\net10.0\Actividad 9.pdb
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\obj\Debug\net10.0\Actividad 9.genruntimeconfig.cache
+C:\Users\mario\Archivo\Programas\Trabajos Anahuac Mayab\Lenguajes Orientados a Objetos\Actividad 9\Csharp\Actividad 9\obj\Debug\net10.0\ref\Actividad 9.dll
