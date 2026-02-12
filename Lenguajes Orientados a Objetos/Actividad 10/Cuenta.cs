@@ -1,10 +1,17 @@
 using System;
 
-public class Cuenta
+class Cuenta
 {
     private string nombre;
-
     private double saldo; 
+
+
+    public Cuenta(string name, double sald)
+    {
+        this.nombre = name;
+        if (sald > 0.0 ) {this.saldo = sald;}
+        else { this.saldo = 0; }
+    }
 
     public string Nombre{
         set { nombre = value;}
@@ -16,7 +23,7 @@ public class Cuenta
         get {return saldo;}  
     }
 
-    void deposito(double monto_deposito)
+    public void deposito(double monto_deposito)
     {
         if (monto_deposito > 0.0)
         {
