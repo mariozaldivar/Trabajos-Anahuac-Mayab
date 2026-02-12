@@ -33,5 +33,6 @@ int main()
     empl_manual.Imprimir();
     empl_manual.calcularSalario();
     
+
     return 0;
 }
