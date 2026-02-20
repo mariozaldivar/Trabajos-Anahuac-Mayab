@@ -1,5 +1,9 @@
 from termometro import Termometro
 
-termometro = Termometro(30)
+termometro1 = Termometro(30)
+termometro2 = Termometro()
 
-termometro.MostrarTemperatura()
+print("Para el termometro parametrizado: ")
+termometro1.MostrarTemperatura()
+print("\nPara el termometro sin parametrizar: ")
+termometro2.MostrarTemperatura()
