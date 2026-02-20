@@ -15,7 +15,7 @@ class Termometro
     Termometro()
     {
         srand(time(NULL));
-        float tempC = rand() % 100;
+        tempC = rand() % 100;
     }
 
     Termometro(float temp)

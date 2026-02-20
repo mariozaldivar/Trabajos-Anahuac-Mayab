@@ -3,6 +3,6 @@ using namespace std;
 
 int main()
 {
-    Termometro termometro(30);
+    Termometro termometro;
     termometro.MostrarTemperatura();
 }
