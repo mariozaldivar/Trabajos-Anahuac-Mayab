@@ -6,7 +6,7 @@
 using namespace std;
 
 class EmpleadoPorComision : public Empleado {
-protected: // protected para que EmpleadoBaseMasComision acceda
+protected: 
     double ventasBrutas;
     double tarifaComision;
 

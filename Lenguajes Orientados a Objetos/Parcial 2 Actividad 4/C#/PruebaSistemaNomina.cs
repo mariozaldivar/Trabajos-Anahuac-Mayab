@@ -21,7 +21,6 @@ namespace SistemaNomina
             {
                 Console.WriteLine(empleado);
 
-                // Aumento del 10% si es BaseMasComision
                 if (empleado is EmpleadoBaseMasComision empBase)
                 {
                     empBase.SalarioBase *= 1.10m;

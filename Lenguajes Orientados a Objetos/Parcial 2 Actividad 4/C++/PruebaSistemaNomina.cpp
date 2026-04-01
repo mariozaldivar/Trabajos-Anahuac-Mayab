@@ -9,7 +9,6 @@
 
 using namespace std;
 
-// Función que recibe referencia para ejecutar polimorfismo
 void mostrarDatos(Empleado& e) {
     e.imprimir();
     cout << "\ningresos: $" << e.ingresos() << "\n\n";
@@ -30,7 +29,6 @@ int main() {
     mostrarDatos(e2);
     mostrarDatos(e3);
     
-    // Ejemplo de manipulación antes de imprimir
     double baseAnterior = e4.obtenerSalarioBase();
     e4.establecerSalarioBase(baseAnterior * 1.10); // 10% aumento
     mostrarDatos(e4);

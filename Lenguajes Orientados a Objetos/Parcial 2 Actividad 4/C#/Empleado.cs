@@ -15,7 +15,6 @@ namespace SistemaNomina
             NumeroSeguroSocial = nss;
         }
 
-        // Método abstracto
         public abstract decimal Ingresos();
 
         public override string ToString()

@@ -14,7 +14,6 @@ empleado_por_comision = EmpleadoPorComision(
 empleado_base_mas_comision = EmpleadoBaseMasComision(
     "Bob", "Lewis", "444-44-4444", 5000, 0.04, 300)
 
-# Nuevo objeto basado en el UML
 empleado_por_piezas = EmpleadoPorPiezas(
     "Mario", "Gomez", "555-55-5555", 25.50, 100)
 
@@ -31,7 +30,6 @@ lista_individual = [
 for e in lista_individual:
     print(f"{e}\ningresos: ${e.ingresos():,.2f}\n")
 
-# Lista para procesamiento polimórfico
 empleados = [
     empleado_asalariado,
     empleado_por_horas,
@@ -45,7 +43,6 @@ print("Empleados procesados en forma polimorfica:\n")
 for empleado_actual in empleados:
     print(empleado_actual)
 
-    # Caso especial para EmpleadoBaseMasComision
     if isinstance(empleado_actual, EmpleadoBaseMasComision):
         salario_anterior = empleado_actual.salario_base
         empleado_actual.salario_base = 1.10 * salario_anterior
@@ -54,6 +51,5 @@ for empleado_actual in empleados:
 
     print(f"ingresos ${empleado_actual.ingresos():,.2f}\n")
 
-# Mostrar tipos de clase
 for i, empleado in enumerate(empleados):
     print(f"El empleado {i} es un {empleado.__class__.__name__}")
