@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u/lR0EHCba0=",
+  "success": true,
+  "projectFilePath": "/home/Mario/Programas/Trabajos-Anahuac-Mayab/Lenguajes Orientados a Objetos/Parcial 2 Actividad 4/C#/C#.csproj",
+  "expectedPackageFiles": [
+    "/home/Mario/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.4/microsoft.aspnetcore.app.ref.10.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

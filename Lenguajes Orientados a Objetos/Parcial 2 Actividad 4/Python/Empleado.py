@@ -1,37 +1,36 @@
-from abc import ABC, abstractmethod
-
-
-class Empleado(ABC):
-
+class Empleado:
     def __init__(self, nombre, apellido, nss):
-        self._primerNombre = nombre
-        self._apellidoPaterno = apellido
-        self._numeroSeguroSocial = nss
+        self._primer_nombre = nombre
+        self._apellido_paterno = apellido
+        self._numero_seguro_social = nss
 
     @property
-    def primerNombre(self):
-        return self._primerNombre
+    def primer_nombre(self):
+        return self._primer_nombre
 
-    @primerNombre.setter
-    def primerNombre(self, nombre):
-        self._primerNombre = nombre
-
-    @property
-    def apellidoPaterno(self):
-        return self._apellidoPaterno
-
-    @apellidoPaterno.setter
-    def primerNombre(self, apellido):
-        self._apellidoPaterno = apellido
+    @primer_nombre.setter
+    def primer_nombre(self, nombre):
+        self._primer_nombre = nombre
 
     @property
-    def numeroSeguroSocial(self):
-        return self._numeroSeguroSocial
+    def apellido_paterno(self):
+        return self._apellido_paterno
 
-    @numeroSeguroSocial.setter
-    def numeroSeguroSocial(self, nss):
-        self._numeroSeguroSocial = nss
+    @apellido_paterno.setter
+    def apellido_paterno(self, apellido):
+        self._apellido_paterno = apellido
 
-    @abstractmethod
+    @property
+    def numero_seguro_social(self):
+        return self._numero_seguro_social
+
+    @numero_seguro_social.setter
+    def numero_seguro_social(self, nss):
+        self._numero_seguro_social = nss
+
     def ingresos(self):
-        pass
+        raise NotImplementedError(
+            "Subclase debe implementar el método ingresos")
+
+    def __str__(self):
+        return f"{self.primer_nombre} {self.apellido_paterno}\nnumero de seguro social: {self.numero_seguro_social}"
