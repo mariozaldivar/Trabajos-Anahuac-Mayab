@@ -13,4 +13,4 @@ with open(filename, "r", encoding="utf-8") as file:
             pass
 
 for user in seen:
-    print(user)
+    print(user + "hola")

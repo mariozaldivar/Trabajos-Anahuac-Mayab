@@ -9,6 +9,7 @@ def main():
             asiento = int(asiento)
             if asiento != 0 and asiento != 1:
                 print("No diste los asientos ocupados en el formato indicado")
+                exit()
             elif asiento == 1:
                 count += 1
             elif asiento == 0:
