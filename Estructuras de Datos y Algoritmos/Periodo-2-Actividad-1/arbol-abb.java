@@ -124,7 +124,13 @@ public class ArbolBinario {
 
     private boolean buscarRec(Nodo raiz, int clave) { 
 
-        // TODO: desarrollar búsqueda recursiva 
+        if (raiz.clave == clave) {
+      return true;
+    } else if (raiz.clave < clave){
+      return buscarRec(raiz.derecho, clave);
+    } else if (raiz.clave > clave) {
+      return buscarRec(raiz.izquierdo, clave);
+    }
 
         return false; 
 
@@ -145,6 +151,7 @@ public class ArbolBinario {
     private Nodo eliminarRec(Nodo raiz, int clave) { 
 
         // TODO: desarrollar eliminación recursiva 
+    //
 
         return raiz; 
 
