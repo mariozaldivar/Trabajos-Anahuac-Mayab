@@ -1,0 +1,43 @@
+
+
+ALGORITMO DE HASH: x mod 10 
+
+RESULTADO DE LOS HASHES: 
+
+25 -> 5
+18 -> 8
+42 -> 2
+38 -> 8
+13 -> 3
+27 -> 7
+
+
+
+
+¿Qué números intentan almacenarse en la misma posición?
+ - Los números 18 y 38
+
+¿Por qué se produce una colisión?
+ - Por el principio del palomar, el cuál explica que si intentas 
+   encajar n objetos en m "contenedores", si n es mayor que m, 
+   necesariamente tendrá que haber más de un objeto por contenedor.
+   Lo mismo pasa con los números, ya que el conjunto de resultados
+   posibles para la operación mod 10 es únicamente [0, 1, 2 ... 9], 
+   y dado que existe una cantidad infinita de números, necesariamente
+   existirán colisiones al simplificar números a un formato que permite únicamente
+   10 posiblidades.
+
+
+¿Qué problema se presenta cuando dos elementos generan la misma posición?
+
+ - El tiempo de loookup deja de ser constante (O(1)). Esto se suele solucionar, ya sea con una lista enlazada, 
+   (lo que haría que el peor caso de tiempo de búsqueda sea O(n), pero según el tamaño del hash el promedio aproxime O(1)
+   con peor complejidad espacial), o saltando al siguiente espacio disponible, con la misma complejidad pero manteniendo 
+   la complejidad espacial.
+
+
+¿Qué estrategia propondrías para solucionar este problema?
+
+- La implementación de listas enlazadas, de manera que, al chocar con una "casilla" ya ocupada, el algoritmo proceda a seguir
+  los punteros de la lista enlazada, y en caso de terminar la lista enlazada, puede asumir que el elemento no existe.
+
